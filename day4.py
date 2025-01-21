@@ -58,4 +58,5 @@ for r in range(rows):
                 temp += puzzle[r + 1][c + 1]
                 if temp in comb:
                     cross += 1
+# 1972
 print(cross)
